@@ -1,12 +1,23 @@
-
+import Navbar from './components/Navbar'
 import './App.css'
+import Home from './pages/Home'
+import Projects from './pages/Projects'
+import Skills from './pages/Skills'
+import Contact from './pages/Contact'
+import Footer from './components/Footer'
+
 
 function App() {
  
 
   return (
     <>
-    <p className='m-5 p-5 text-red-500'>wellcome to my portfolio</p>
+    <Navbar />
+    <Home />
+    <Projects />
+    <Skills />
+    <Contact />
+    <Footer />
     </>
   )
 }
