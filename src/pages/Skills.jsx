@@ -7,6 +7,8 @@ import {
   FaReact,
   FaBootstrap,
 } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
+
 import { SiTailwindcss, SiAxios } from "react-icons/si";
 import { TbBrandFramerMotion } from "react-icons/tb";   
 
@@ -60,6 +62,12 @@ function Skills() {
     percent: 80,
     icon: <TbBrandFramerMotion className="text-indigo-500 text-2xl" />,
   },
+  {
+    name: "ًWordPress",
+    level: "Advanced",
+    percent: 95,
+    icon: <FaWordpress className="text-indigo-500 text-2xl" />,
+  },
   ];
   return (
     <motion.div
@@ -81,12 +89,12 @@ function Skills() {
               </div>
             </div>
 
-            <div className="w-80 bg-gray-700 rounded-full h-3 md:h-4 overflow-hidden flex items-center relative mt-2">
+            <div className="w-full md:w-80 bg-gray-700 rounded-full h-3 md:h-4 overflow-hidden flex items-center relative mt-2">
               <div
                 className="bg-gradient-to-r from-cyan-400 to-blue-500 h-full rounded-full transition-all duration-500 flex items-center justify-center"
                 style={{ width: `${skill.percent}%` }}
               >
-                <span className="text-white font-bold text-xs">{skill.percent}%</span>
+                <span className="text-white font-bold text-[10px] md:text-xs">{skill.percent}%</span>
               </div>
             </div>
           </div>
