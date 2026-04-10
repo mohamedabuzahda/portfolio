@@ -29,7 +29,7 @@ const Contact = () => {
     {
       id: 4,
       method: "CV",
-      link: "https://drive.google.com/file/d/12u3ntbk-i2alh_SSyYDbfAl0lpA0M9rb/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1bX8bMXCqoJ7v76uWFQvMmzSH7yKI3BxJ/view?usp=sharing",
       icon: <TbFileCv className="text-2xl" />,
     },
   ]);
